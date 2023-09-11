@@ -1,9 +1,7 @@
-//: [Previous](@previous)
-
 import Foundation
 
 let nome: String = "Steve"
-var sobrenome: String? 
+var sobrenome: String?
 
 print("Nome completo: \(nome) \(sobrenome ?? "Wozniak")")
 
